@@ -97,7 +97,7 @@ export const SignupTab = (navigation) => {
       <View style={{ marginVertical: 10, marginHorizontal: 15 }}>
         <TextInputField
           keyboardType="email-address"
-          label="Email address"
+          label="Email"
           placeholder="Email address"
           onChangeText={(value) => setEmail(value)}
           value={email}
